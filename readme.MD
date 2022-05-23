@@ -7,3 +7,4 @@
 <h2>Encoding and Decoding with Base 58</h2>
 <h2>VERIFY A KEYPAIR</h2>
 <h2>Conversions from Seed to Uint8Array to Base 58 String</h2>
+<h2>Learn if the private key living on ed25519 Elliptic Curve</h2>

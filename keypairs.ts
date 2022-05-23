@@ -9,15 +9,13 @@ let keypair = Keypair.generate();
 console.log(keypair)
 
 //keypair from bytes
-let keypairFromBytes = Keypair.fromSecretKey(Uint8Array.from([
-  46,204,90,180,96,209,157,192,157,175,108,194,60,174,76,151,247,139,105,56,178,222,156,78,165,28,207,19,136,251,184,64,56,229,99,164,190,45,64,208,28,82,129,251,53,242,57,220,185,182,78,66,87,138,29,232,2,156,141,102,172,241,175,203
-]))
+let keypairFromBytes = Keypair.fromSecretKey(Uint8Array.from(["YOUR PRIVATE KEY AS UINT8 ARRAY"]))
 //console.log(keypair)
 
 //keypair from base 58 string
 
-console.log("encoded to bs58: "+bs58.encode(Uint8Array.from([46,204,90,180,96,209,157,192,157,175,108,194,60,174,76,151,247,139,105,56,178,222,156,78,165,28,207,19,136,251,184,64,56,229,99,164,190,45,64,208,28,82,129,251,53,242,57,220,185,182,78,66,87,138,29,232,2,156,141,102,172,241,175,203])))
-let keypairFromBase58 = Keypair.fromSecretKey(bs58.decode("wGWyZh7wKdVGfvvAjpg8mRBLBFFvxR7gAZ6M5dVHFS7GGcox2qsJAumTUEijunJWSyZy3SozTipPJEcSw5g7wdk"));
+console.log("encoded to bs58: "+bs58.encode(Uint8Array.from(["YOUR PRIVATE KEY AS UINT8 ARRAY"])))
+let keypairFromBase58 = Keypair.fromSecretKey(bs58.decode("YOUR PRIVATE STRING KEY"));
 
 
 
